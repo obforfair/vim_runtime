@@ -218,8 +218,8 @@ noremap <leader>9 9gt
 noremap <leader>0 :tablast<cr>
 
 " 代码折叠
-nnoremap <space> za
-vnoremap <space> zf
+"nnoremap <space> za
+"vnoremap <space> zf
 let g:indentLine_enabled = 1
 let g:indentLine_color_term = 239
 
