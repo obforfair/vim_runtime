@@ -202,8 +202,24 @@ map <leader>x :e ~/buffer.md<cr>
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
 
+noremap  <S-l> :tabn<CR>
+noremap  <S-h> :tabp<CR>
+map  <S-n> :tabnew<CR>
 
+noremap <leader>1 1gt
+noremap <leader>2 2gt
+noremap <leader>3 3gt
+noremap <leader>4 4gt
+noremap <leader>5 5gt
+noremap <leader>6 6gt
+noremap <leader>7 7gt
+noremap <leader>8 8gt
+noremap <leader>9 9gt
+noremap <leader>0 :tablast<cr>
 
+" 代码折叠
+nnoremap <space> za
+vnoremap <space> zf
 let g:indentLine_enabled = 1
 let g:indentLine_color_term = 239
 
